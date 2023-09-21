@@ -38,8 +38,10 @@ function Sidebare() {
                 </Link>
                 </li>
                 <li>
+                    <Link to={'/product'} className='link'>
                     <ProductionQuantityLimitsIcon className='icon' />
                     <span>Products</span>
+                    </Link>
                 </li>
                 <li>
                 <ListAltIcon className='icon' />
